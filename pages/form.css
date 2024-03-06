@@ -33,10 +33,13 @@
   font-family: Inter, Arial, "sans-serif";
   font-size: 20px;
   line-height: 30px;
+}
+
+.form__input::placeholder {
   color: #838383;
 }
 
-.form__button {
+.form__input .form__button {
   border-radius: 4px;
   width: 100%;
   padding: 0;

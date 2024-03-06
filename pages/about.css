@@ -15,10 +15,11 @@
   background-color: #0a2850;
   position: relative;
   overflow: hidden;
+  display: flex;
 }
 
 .about__title {
-  font-family: Inter, Arial, "sans-serif";
+  font-family: Inter, Arial, sans-serif;
   color: white;
   font-weight: 500;
   font-size: 44px;
@@ -27,7 +28,7 @@
   margin: 0;
   padding-top: 100px;
   padding-left: 80px;
-  position: absolute;
+  z-index: 1;
 }
 
 .about__content {
@@ -59,9 +60,5 @@
 }
 
 .about__circle_animation_blurred {
-  animation-name: pulsate;
-  animation-duration: 1.3s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
+  animation: pulsate 1.3s ease-in-out 0s infinite;
 }

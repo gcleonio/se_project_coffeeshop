@@ -8,6 +8,7 @@
   background-image: url(../images/background_header.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  box-sizing: border-box;
 }
 
 .header__title {
@@ -41,16 +42,16 @@
   display: flex;
   justify-content: space-between;
   margin-top: auto;
+  font-family: Inter, Arial, "sans-serif";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
 }
 
 .header__paragraph {
   margin: 0;
-}
-
-.header__address {
-  margin: 0;
   margin-top: auto;
-  margin-left: auto;
 }
 
 .header__image {

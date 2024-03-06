@@ -22,6 +22,7 @@
   text-decoration: none;
   color: black;
   transition: color 0.3s linear;
+  font-weight: 500;
 }
 
 .nav__link:hover {
