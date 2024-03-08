@@ -22,18 +22,19 @@
 }
 
 .form__input {
-  border-radius: 4px;
   width: 100%;
   display: block;
   box-sizing: border-box;
   margin-top: 8px;
   margin-bottom: 32px;
-  height: 60px;
   padding: 12px;
   font-family: Inter, Arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
   max-width: 385px;
+  border-radius: 4px;
+  height: 60px;
+  border: 1px solid black;
 }
 
 .form__input::placeholder {
@@ -66,5 +67,5 @@
   height: 20px;
   width: 20px;
   background-color: #2f80ed;
-  background-image: url(../images/check.svg);
+  background-image: url(../../images/check.svg);
 }
