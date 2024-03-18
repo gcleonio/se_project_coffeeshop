@@ -26,3 +26,5 @@ This is the second project of the Software Engineering program at TripleTen. It 
 ![menu screenshot](./images/demo/menu_screenshot.png)
 
 ![about screenshot](./images/demo/about_screenshot.png)
+
+[GitHub Pages link](https://gcleonio.github.io/se_project_coffeeshop/)
